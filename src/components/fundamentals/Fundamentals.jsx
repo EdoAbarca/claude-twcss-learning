@@ -76,6 +76,54 @@ const Fonts = () => {
 	</div>
 }
 
+const Card = ({ 
+  title, 
+  description, 
+  imageSrc, 
+  tags = [], 
+  onClick 
+}) => {
+  return (
+    <div 
+      className="group relative overflow-hidden rounded-lg bg-white shadow-md transition-all duration-300 hover:shadow-xl"
+      onClick={onClick}
+    >
+      {/* Image container with aspect ratio */}
+      <div className="relative h-48 overflow-hidden">
+        <img
+          src={imageSrc || "/api/placeholder/400/320"}
+          alt={title}
+          className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+        />
+      </div>
+
+      {/* Content area with consistent padding */}
+      <div className="space-y-4 p-4">
+        <h3 className="text-xl font-semibold tracking-tight text-gray-900">
+          {title}
+        </h3>
+        
+        <p className="text-sm leading-relaxed text-gray-600">
+          {description}
+        </p>
+
+        {/* Tags with flexbox layout */}
+        <div className="flex flex-wrap gap-2">
+          {tags.map((tag, index) => (
+            <span
+              key={index}
+              className="inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-xs font-medium text-blue-800"
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+
 const Fundamentals = () => {
 	return (
 		<div>
