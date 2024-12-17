@@ -25,7 +25,7 @@ const Home = () => {
         </Link>
         <Link to="/navbar">
           <button
-            className="h-10 w-40 border border-green-600 bg-green-600 text-white rounded-2xl transition hover:bg-green-700 hover:border-green-700 focus:outline-none focus:ring-2 focus:ring-green-400"
+            className="h-10 w-40 border border-blue-600 bg-blue-600 text-white rounded-2xl transition hover:bg-blue-700 hover:border-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
             aria-label="Explore Navbars"
           >
             Navbars
@@ -33,7 +33,7 @@ const Home = () => {
         </Link>
         <Link to="/footer">
           <button
-            className="h-10 w-40 border border-purple-600 bg-purple-600 text-white rounded-2xl transition hover:bg-purple-700 hover:border-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-400"
+            className="h-10 w-40 border border-blue-600 bg-blue-600 text-white rounded-2xl transition hover:bg-blue-700 hover:border-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
             aria-label="Explore Footers"
           >
             Footers
@@ -41,7 +41,7 @@ const Home = () => {
         </Link>
         <Link to="/card">
           <button
-            className="h-10 w-40 border border-yellow-600 bg-yellow-600 text-white rounded-2xl transition hover:bg-yellow-700 hover:border-yellow-700 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+            className="h-10 w-40 border border-blue-600 bg-blue-600 text-white rounded-2xl transition hover:bg-blue-700 hover:border-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
             aria-label="Explore Cards"
           >
             Cards
@@ -49,7 +49,7 @@ const Home = () => {
         </Link>
         <Link to="/button">
           <button
-            className="h-10 w-40 border border-yellow-600 bg-yellow-600 text-white rounded-2xl transition hover:bg-yellow-700 hover:border-yellow-700 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+            className="h-10 w-40 border border-blue-600 bg-blue-600 text-white rounded-2xl transition hover:bg-blue-700 hover:border-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
             aria-label="Explore Buttons"
           >
             Buttons
@@ -57,10 +57,34 @@ const Home = () => {
         </Link>
         <Link to="/dropdown">
           <button
-            className="h-10 w-40 border border-yellow-600 bg-yellow-600 text-white rounded-2xl transition hover:bg-yellow-700 hover:border-yellow-700 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+            className="h-10 w-40 border border-blue-600 bg-blue-600 text-white rounded-2xl transition hover:bg-blue-700 hover:border-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
             aria-label="Explore Dropdowns"
           >
             Dropdown
+          </button>
+        </Link>
+        <Link to="/hero">
+          <button
+            className="h-10 w-40 border border-blue-600 bg-blue-600 text-white rounded-2xl transition hover:bg-blue-700 hover:border-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            aria-label="Explore Dropdowns"
+          >
+            Hero
+          </button>
+        </Link>
+        <Link to="/grid">
+          <button
+            className="h-10 w-40 border border-blue-600 bg-blue-600 text-white rounded-2xl transition hover:bg-blue-700 hover:border-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            aria-label="Explore Dropdowns"
+          >
+            Grid
+          </button>
+        </Link>
+        <Link to="/contact">
+          <button
+            className="h-10 w-40 border border-blue-600 bg-blue-600 text-white rounded-2xl transition hover:bg-blue-700 hover:border-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            aria-label="Explore Dropdowns"
+          >
+            Contact
           </button>
         </Link>
       </div>
