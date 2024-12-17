@@ -6,6 +6,8 @@ import Navbar from './components/header/Navbar';
 import Hero from './components/hero/Hero';
 import Grid from './components/grid/Grid';
 import Contact from './components/contact/Contact';
+//import Footer from './components/footer/Footer';
+import PortFooter from './components/footer/PortFooter';
 
 export default function App() {
   return (
@@ -16,6 +18,7 @@ export default function App() {
         <Route path="/navbar" element={<Navbar/>}/>
         <Route path="/hero" element={<Hero />} />
         <Route path="/grid" element={<Grid />} />
+        <Route path="/footer" element={<PortFooter/>}/>
         <Route path="/contact" element={<Contact />}/>
         <Route path="*" element={<NotFound />} /> 
       </Routes>
