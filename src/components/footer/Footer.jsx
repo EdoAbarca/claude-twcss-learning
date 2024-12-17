@@ -1,6 +1,4 @@
 
-import React from 'react';
-
 const Footer = () => {
   // Get the current year dynamically to always show up-to-date copyright
   const currentYear = new Date().getFullYear();

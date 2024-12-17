@@ -1,4 +1,3 @@
-import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck, faDownload } from "@fortawesome/free-solid-svg-icons";
 
@@ -13,7 +12,7 @@ const Hero = () => {
           <span className="inline-flex items-center px-3 py-1 text-sm font-medium text-green-700 bg-green-100 
                          rounded-full shadow-sm">
             <FontAwesomeIcon icon={faCheck} className="h-4 w-4 mr-2" />
-            Available for hiring
+            Available for hire
           </span>
 
           {/* Name and titles */}
