@@ -6,7 +6,6 @@ import Navbar from './components/header/Navbar';
 import Hero from './components/hero/Hero';
 import Grid from './components/grid/Grid';
 import Contact from './components/contact/Contact';
-//import Footer from './components/footer/Footer';
 import PortFooter from './components/footer/PortFooter';
 import AltProject from './components/card/AltProject';
 

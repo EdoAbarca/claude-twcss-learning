@@ -1,4 +1,5 @@
-import AltCard from "./Card";
+import SecondAltCard from "./SecondAltCard";
+//import AltCard from "./AltCard";
 
 const AltProject = () => {
   const projects = [
@@ -31,7 +32,7 @@ const AltProject = () => {
         <h1 className="text-4xl font-bold mb-8 text-center text-red-500">Projects</h1>
         <div className="grid grid-rows-3 gap-8">
           {projects.map((project, index) => (
-            <AltCard
+            <SecondAltCard
               key={index}
               name={project.name}
               img={project.img}
