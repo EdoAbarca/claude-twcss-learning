@@ -8,6 +8,7 @@ import Grid from './components/grid/Grid';
 import Contact from './components/contact/Contact';
 //import Footer from './components/footer/Footer';
 import PortFooter from './components/footer/PortFooter';
+import AltProject from './components/card/AltProject';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/navbar" element={<Navbar/>}/>
         <Route path="/hero" element={<Hero />} />
         <Route path="/grid" element={<Grid />} />
+        <Route path="/card" element={<AltProject/>}/>
         <Route path="/footer" element={<PortFooter/>}/>
         <Route path="/contact" element={<Contact />}/>
         <Route path="*" element={<NotFound />} /> 
